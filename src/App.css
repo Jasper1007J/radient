@@ -46,64 +46,7 @@ a{
   grid-column:1 ;
   width: 100%;
 }
-@media screen and (max-width:1200px) {
-  .App .group{
-    /* width: 200px ; */
-    left: 47%;
-  }
 
-  .App .links{
-    margin-top: 4%;
-    margin-left: -9%;
-  }
-}
-
-@media screen and (max-width:900px) {
-  .App .group{
-    /* width: 160px ; */
-    left: 45%;
-  }
-
-  .App .links{
-    margin-top: 5%;
-    margin-left: -10%;
-  }
-  .App .link2{
-    margin-left: -30%;
-  }
-}
-
-@media screen and (max-width:800px) {
-  .App .group{
-    /* width: 100px ; */
-    left: 30%;
-  }
-  .App .links{
-   margin-left: -30%;
-  }
-}
-@media screen and (max-width:600px) {
-  .App .group{
-    /* width: 50px ; */
-    left: 20%;
-  }
-  .App .links{
-   display: grid;
-   gap: 10%;
-   grid-template-columns: minmax(3,5fr);
-  }
-}
-@media screen and (max-width:300px) {
-  .App .group{
-    /* width: 200px ; */
-    left: 10%;
-  }
-  .App .links{
-   display: grid;
-   gap: 10%;
-   grid-template-columns: minmax(3,5fr);
-  }
-}
 
  
  .input {
