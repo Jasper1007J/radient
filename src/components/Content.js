@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Content = () =>{
      return(
           <div className='Cont'>
@@ -19,7 +21,7 @@ const Content = () =>{
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.</p>
-               <a href='' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </a>
+               <NavLink to='/' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </NavLink>
                </label>
                </article>
 
@@ -50,7 +52,7 @@ const Content = () =>{
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.</p>
-               <a href='' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </a>
+               <NavLink to='/' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </NavLink>
                </label>
                </article>
 
@@ -79,7 +81,7 @@ const Content = () =>{
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.</p>
-               <a href='' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </a>
+               <NavLink to='/' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </NavLink>
                </label>
                </article>
 
@@ -128,7 +130,7 @@ const Content = () =>{
                     <p><img src={require('./checkbox.png')}alt='checkbox'/> Easy Use </p>
                     <p><img src={require('./checkbox.png')}alt='checkbox'/> Out of box </p>
                </div>
-               <a href='' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </a>
+               <NavLink to='/' style={{textDecoration:'none',color:'#1B88F4'}}>Show more <img src={require('./arrow.png')} alt='arrow' /> </NavLink>
                
                </label>
                </article>

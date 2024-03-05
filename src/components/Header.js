@@ -1,4 +1,5 @@
 import { Divider } from "@mui/material";
+import { NavLink } from 'react-router-dom';
 
 const Header = () =>{
      return(
@@ -8,36 +9,36 @@ const Header = () =>{
                <div className="update">
                     <div>
                          <img src={require('./last updated.png')} alt="update"/>
-                         <a href="#">Last Updated - February 22, 2020</a>
+                         <NavLink to='/'>Last Updated - February 22, 2020</NavLink>
                     </div>
                     <div>
                          <img src={require('./advertising.png')} alt="advertise"/>
-                        <a href="#"> Advertising Disclosure</a>
+                        <NavLink to='/'> Advertising Disclosure</NavLink>
                     </div>
                     <div className="relavant">
-                         <a href="#">Top Relevant</a>
+                         <NavLink to='/'>Top Relevant</NavLink>
                          <img src={require('./relavant.png')} alt="relavant" />
                     </div> 
                </div>
                 <Divider/>
                 <div className="breadcrumb-header">
-                         <a href="#">Tools</a>
-                         <a href="#">AWS Builder</a>
-                         <a href="#">Start Build</a>
-                         <a href="#">Build Supplies</a>
-                         <a href="#">Tooling</a>
-                         <a href="#">BlueHosting</a>
+                         <NavLink to='/'>Tools</NavLink>
+                         <NavLink to='/'>AWS Builder</NavLink>
+                         <NavLink to='/'>Start Build</NavLink>
+                         <NavLink to='/'>Build Supplies</NavLink>
+                         <NavLink to='/'>Tooling</NavLink>
+                         <NavLink to='/'>BlueHosting</NavLink>
                     </div>
                 <div className="breadcrumbs">
-                    <a href="#">Home</a>
+                    <NavLink to='/'>Home</NavLink>
                     <img src={require('./Vector.png')} alt="arrow"/>
-                    <a href="#">Hosting for all</a>
+                    <NavLink to='/'>Hosting for all</NavLink>
                     <img src={require('./Vector.png')} alt="arrow"/>
-                    <a href="#">Hosting</a>
+                    <NavLink to='/'>Hosting</NavLink>
                     <img src={require('./Vector.png')} alt="arrow"/>
-                    <a href="#">Hosting 6</a>
+                    <NavLink to='/'>Hosting 6</NavLink>
                     <img src={require('./Vector.png')} alt="arrow"/>
-                    <a href="#">Hosting 5</a>
+                    <NavLink to='/'>Hosting 5</NavLink>
                 </div>
           </div>
      )

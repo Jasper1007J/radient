@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 export default function Deals() {
      return (
          <div className="deals">
@@ -15,8 +17,8 @@ export default function Deals() {
                      <div className='deal-content'>
                          {/* Links for offers and deal duration */}
                          <div className='offer-links'>
-                             <a href='#'>20% Off</a>
-                             <a href='#'>Limited time</a>
+                             <NavLink to='/'>20% Off</NavLink>
+                             <NavLink to='/'>Limited time</NavLink>
                          </div>
                          {/* Title of the deal */}
                          <div className='deal-head'>
@@ -51,8 +53,8 @@ export default function Deals() {
                      <div className='deal-content'>
                          {/* Links for offers and deal duration */}
                          <div className='offer-links'>
-                             <a href='#'>20% Off</a>
-                             <a href='#'>Limited time</a>
+                             <NavLink to='/'>20% Off</NavLink>
+                             <NavLink to='/'>Limited time</NavLink>
                          </div>
                          {/* Title of the deal */}
                          <div className='deal-head'>
@@ -87,8 +89,8 @@ export default function Deals() {
                      <div className='deal-content'>
                          {/* Links for offers and deal duration */}
                          <div className='offer-links'>
-                             <a href='#'>20% Off</a>
-                             <a href='#'>Limited time</a>
+                             <NavLink to='/'>20% Off</NavLink>
+                             <NavLink to='/'>Limited time</NavLink>
                          </div>
                          {/* Title of the deal */}
                          <div className='deal-head'>

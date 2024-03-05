@@ -1,3 +1,6 @@
+
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () =>{
      return(
           <nav>
@@ -6,9 +9,9 @@ const Navbar = () =>{
                     <input type="search" class="input"/>
                </div> 
                <div className="links">
-               <a href="#" className="link1">Categories</a>
-               <a href="#" className="link2">Website Builders</a>
-               <a href="#" className="link3">Today's deals</a>
+               <NavLink to='/' className="link1"><a>Categories</a></NavLink>
+               <NavLink to='/' className="link2"><a>Website Builders</a></NavLink>
+               <NavLink to='/' className="link3"><a>Today's deals</a></NavLink>
                </div>
           </nav>
      )
