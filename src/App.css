@@ -48,7 +48,7 @@ a{
 }
 @media screen and (max-width:1200px) {
   .App .group{
-    width: 200px ;
+    /* width: 200px ; */
     left: 47%;
   }
 
@@ -60,7 +60,7 @@ a{
 
 @media screen and (max-width:900px) {
   .App .group{
-    width: 160px ;
+    /* width: 160px ; */
     left: 45%;
   }
 
@@ -75,7 +75,7 @@ a{
 
 @media screen and (max-width:800px) {
   .App .group{
-    width: 100px ;
+    /* width: 100px ; */
     left: 30%;
   }
   .App .links{
@@ -84,7 +84,7 @@ a{
 }
 @media screen and (max-width:600px) {
   .App .group{
-    width: 50px ;
+    /* width: 50px ; */
     left: 20%;
   }
   .App .links{
@@ -95,7 +95,7 @@ a{
 }
 @media screen and (max-width:300px) {
   .App .group{
-    width: 30px ;
+    /* width: 200px ; */
     left: 10%;
   }
   .App .links{
