@@ -176,7 +176,7 @@ a{
  }
  .header .update .relavant{
   margin-right: 0%;
-  justify-content: end;
+  justify-content: flex-end;
  }
 
 .breadcrumb-header{
