@@ -8,20 +8,20 @@ const Footer = () => {
         <div className="footer">
             {/* Categories section */}
             <div className="categories">
-                <a href='#' className='h2'>Categories</a>
-                <a href='#' className='label'>Web Builder</a>
-                <a href='#' className='label'>Hosting</a>
-                <a href='#' className='label'>Data Center</a>
-                <a href='#' className='label'>Robotic-Automation</a>
+                <NavLink to='/' className='h2'>Categories</NavLink>
+                <NavLink to='/' className='label'>Web Builder</NavLink>
+                <NavLink to='/' className='label'>Hosting</NavLink>
+                <NavLink to='/' className='label'>Data Center</NavLink>
+                <NavLink to='/' className='label'>Robotic-Automation</NavLink>
             </div>
             {/* Contact section */}
             <div className="contact">
-                <a href='#' className='h2'>Contact</a>
-                <a href='#' className='label'>Contact</a>
-                <a href='#' className='label'>Privacy Policy</a>
-                <a href='#' className='label'>Terms Of Service</a>
-                <a href='#' className='label'>Categories</a>
-                <a href='#' className='label'>About</a>
+                <NavLink to='/' className='h2'>Contact</NavLink>
+                <NavLink to='/' className='label'>Contact</NavLink>
+                <NavLink to='/' className='label'>Privacy Policy</NavLink>
+                <NavLink to='/' className='label'>Terms Of Service</NavLink>
+                <NavLink to='/' className='label'>Categories</NavLink>
+                <NavLink to='/' className='label'>About</NavLink>
             </div>
             {/* United States section with NavLink */}
             <div className="US">

@@ -15,9 +15,9 @@ const Content = () =>{
                </article>
 
                <article className='data'>
-               <a>
+               <label>
                     <b>WixPro 72-Inch Responsive Website Builder-</b> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)    
-               </a>
+               </label>
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.</p>
@@ -47,8 +47,8 @@ const Content = () =>{
                </article>
 
                <article className='data'>
-               <a>
-               <b>SiteCraft 68-Inch Ultimate Web Design Studio-</b> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)               </a>
+               <label>
+               <b>SiteCraft 68-Inch Ultimate Web Design Studio-</b> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)               </label>
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.</p>
@@ -75,9 +75,9 @@ const Content = () =>{
                </article>
 
                <article className='data'>
-               <a>
+               <label>
                     <b>WixPro 72-Inch Responsive Website Builder-</b> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)    
-               </a>
+               </label>
                <h4>Main highlights</h4>
                <label>
                <p>[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.</p>
@@ -104,9 +104,9 @@ const Content = () =>{
                </article>
 
                <article className='data'>
-               <a>
+               <label>
                <b>CDK Resposive Builder:</b> An extensive library of widgets and apps, and detailed step-by-step guides
-               </a>
+               </label>
                <p style={{color:'#074786'}}>26% off</p>
                <h4>Main highlights</h4>
                <label>

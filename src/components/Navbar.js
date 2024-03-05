@@ -9,9 +9,9 @@ const Navbar = () =>{
                     <input type="search" class="input"/>
                </div> 
                <div className="links">
-               <NavLink to='/' className="link1"><a>Categories</a></NavLink>
-               <NavLink to='/' className="link2"><a>Website Builders</a></NavLink>
-               <NavLink to='/' className="link3"><a>Today's deals</a></NavLink>
+               <NavLink to='/' className="link1"><label>Categories</label></NavLink>
+               <NavLink to='/' className="link2"><label>Website Builders</label></NavLink>
+               <NavLink to='/' className="link3"><label>Today's deals</label></NavLink>
                </div>
           </nav>
      )
